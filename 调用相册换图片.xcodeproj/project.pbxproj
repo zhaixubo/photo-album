@@ -17,6 +17,7 @@
 		58E4D007291A90CE0056E1DB /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E4D006291A90CE0056E1DB /* _______Tests.m */; };
 		58E4D011291A90CE0056E1DB /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E4D010291A90CE0056E1DB /* _______UITests.m */; };
 		58E4D013291A90CE0056E1DB /* _______UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E4D012291A90CE0056E1DB /* _______UITestsLaunchTests.m */; };
+		6B58A1CBC42C754D6D39F7D7 /* libPods-调用相册换图片.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D40DCB0BDB7C72EEC3FF8F /* libPods-调用相册换图片.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F2158B73E5A02B51E1B920A /* Pods-调用相册换图片.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-调用相册换图片.debug.xcconfig"; path = "Target Support Files/Pods-调用相册换图片/Pods-调用相册换图片.debug.xcconfig"; sourceTree = "<group>"; };
 		58E4CFE7291A90CC0056E1DB /* 调用相册换图片.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "调用相册换图片.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E4CFEA291A90CC0056E1DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		58E4CFEB291A90CC0056E1DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +56,8 @@
 		58E4D00C291A90CE0056E1DB /* 调用相册换图片UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "调用相册换图片UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E4D010291A90CE0056E1DB /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		58E4D012291A90CE0056E1DB /* _______UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITestsLaunchTests.m"; sourceTree = "<group>"; };
+		8212EED844BE7F35B77BE60F /* Pods-调用相册换图片.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-调用相册换图片.release.xcconfig"; path = "Target Support Files/Pods-调用相册换图片/Pods-调用相册换图片.release.xcconfig"; sourceTree = "<group>"; };
+		98D40DCB0BDB7C72EEC3FF8F /* libPods-调用相册换图片.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-调用相册换图片.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B58A1CBC42C754D6D39F7D7 /* libPods-调用相册换图片.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +93,8 @@
 				58E4D005291A90CE0056E1DB /* 调用相册换图片Tests */,
 				58E4D00F291A90CE0056E1DB /* 调用相册换图片UITests */,
 				58E4CFE8291A90CC0056E1DB /* Products */,
+				A14128D352A1976877E30402 /* Pods */,
+				BB1975DA7DB964AA97D49B1F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +143,24 @@
 			path = "调用相册换图片UITests";
 			sourceTree = "<group>";
 		};
+		A14128D352A1976877E30402 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F2158B73E5A02B51E1B920A /* Pods-调用相册换图片.debug.xcconfig */,
+				8212EED844BE7F35B77BE60F /* Pods-调用相册换图片.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BB1975DA7DB964AA97D49B1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98D40DCB0BDB7C72EEC3FF8F /* libPods-调用相册换图片.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +168,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58E4D016291A90CE0056E1DB /* Build configuration list for PBXNativeTarget "调用相册换图片" */;
 			buildPhases = (
+				ED119F683D64F49577BD43BB /* [CP] Check Pods Manifest.lock */,
 				58E4CFE3291A90CC0056E1DB /* Sources */,
 				58E4CFE4291A90CC0056E1DB /* Frameworks */,
 				58E4CFE5291A90CC0056E1DB /* Resources */,
@@ -260,6 +286,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ED119F683D64F49577BD43BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-调用相册换图片-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58E4CFE3291A90CC0056E1DB /* Sources */ = {
@@ -437,6 +488,7 @@
 		};
 		58E4D017291A90CE0056E1DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F2158B73E5A02B51E1B920A /* Pods-调用相册换图片.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +516,7 @@
 		};
 		58E4D018291A90CE0056E1DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8212EED844BE7F35B77BE60F /* Pods-调用相册换图片.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -1,0 +1,4 @@
+platform :ios, '8.0'
+target '调用相册换图片' do
+pod 'Masonry'
+end

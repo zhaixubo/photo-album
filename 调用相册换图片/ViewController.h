@@ -6,9 +6,13 @@
 //
 
 #import <UIKit/UIKit.h>
+// 系统相机
+#import <AVFoundation/AVFoundation.h>
+// 系统相册
+#import <AssetsLibrary/AssetsLibrary.h>
+@interface ViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
-@interface ViewController : UIViewController
-
-
+@property (nonatomic, strong) UIImageView *imageView;
+@property (nonatomic, strong) UIImagePickerController *imagePicker;
 @end
 
